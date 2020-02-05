@@ -1,0 +1,37 @@
+{
+  "name": "the-server",
+  "version": "1.0.0",
+  "description": "the server side",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anataminofbankhapoalim/programming.git"
+  },
+  "author": "anat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anataminofbankhapoalim/programming/issues"
+  },
+  "homepage": "https://github.com/anataminofbankhapoalim/programming#readme",
+  "dependencies": {
+    "@types/mysql2": "github:types/mysql2",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "config": "^3.2.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "hashmap": "^2.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.9",
+    "mysql2": "^2.0.1",
+    "pubsub-js": "^1.8.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
